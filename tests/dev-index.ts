@@ -5,7 +5,7 @@ import "./main.css"
 import {tasks2} from "./mock-data/data2";
 
 const chart = new Gantt2Editor(document.getElementById('chart') as HTMLElement);
-chart.init([],{
+chart.init(tasks2,{
     // showTaskNames: true,
     taskStrokeWidth: 1,
     taskHeight: 20,

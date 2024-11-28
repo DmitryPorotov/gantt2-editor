@@ -1,5 +1,5 @@
-import {ResizeableBoxes} from "./components/resizeable-boxes";
+import {ResizableBoxes} from "./components/resizable-boxes";
 
-customElements.define('resizeable-boxes', ResizeableBoxes);
+customElements.define('resizable-boxes', ResizableBoxes);
 
 export * from './editor/gantt2-editor'
