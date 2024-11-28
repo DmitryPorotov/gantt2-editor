@@ -1,9 +1,11 @@
-import {Gantt2Editor} from "../src/editor/gantt2-editor";
+import {Gantt2Editor} from "../src";
+import "./main.css"
+
 
 import {tasks2} from "./mock-data/data2";
 
 const chart = new Gantt2Editor(document.getElementById('chart') as HTMLElement);
-chart.init(tasks2,{
+chart.init([],{
     // showTaskNames: true,
     taskStrokeWidth: 1,
     taskHeight: 20,
@@ -21,3 +23,4 @@ chart.init(tasks2,{
     // timelineDayNumbersForWeekdays: [1],
     // timelineDayNumbersForMonthDates: [1, 15]
 });
+

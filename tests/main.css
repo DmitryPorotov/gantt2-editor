@@ -1,0 +1,11 @@
+.gantt-chart-container {
+    overflow-y: hidden;
+
+}
+.gantt-editor-task-names-container {
+    display: grid;
+}
+#chart {
+    height: 400px;
+    width: 600px;
+}
